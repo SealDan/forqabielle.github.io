@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "YAY! Thenks :)";
+  titleElement.innerHTML = "YAY! Let's go out when you're free! When works for you (Date & Time)?";;
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
   yesButton.onclick = 
